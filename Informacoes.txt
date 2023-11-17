@@ -1,0 +1,510 @@
+/*
+ * Quantos dias eu já vivi, aproximadamente? (ATIVIDADE 01)
+ * 
+ * Escreva um programa em Java que pergunte a idade do usuário em anos, e
+ * devolva uma mensagem da seguinte forma:
+ * 
+ * Você já viveu aproximadamente ... dias!
+ * 
+ * Orientações:
+ * 
+ * 1) Nome do projeto: dias_vividos
+ * 
+ * 2) Enviar o projeto "zipado" (compactado), atividade01.zip para
+ * celso@celso.dev.br
+ **************************************************************************************
+ * 
+ * Qual é o meu IMC? (ATIVIDADE 02)
+ * 
+ * O índice de massa corporal (IMC) é uma medida internacional usada para
+ * calcular se uma pessoa está no peso ideal. O valor do IMC é o resultado da
+ * divisão do peso pela altura ao quadrado.
+ * 
+ * Escreva um programa de computador, utilizando a linguagem Java, que calcule o
+ * IMC de um indivíduo qualquer. O programa deverá solicitar o nome do usuário,
+ * o peso em Kg e a altura em metros. Após a inclusão dos dados pelo usuário o
+ * sistema deverá apresentar a seguinte informação?
+ * 
+ * Olá <nome>! Seu IMC é <imc>.
+ * 
+ * onde,
+ * 
+ * <nome> é o nome fornecido pelo usuário e <imc> é o resultado da equação
+ * matemática.
+ * 
+ * Orientações:
+ * 
+ * 1) Nome do projeto: calculadora_imc
+ * 
+ * 2) Enviar o projeto "zipado" (compactado) para celso@celso.dev.br
+ * 
+ ****************************************************************************************
+ * 
+ * Qual a média final do aluno? (ATIVIDADE 03)
+ * 
+ * ATIVIDADE 03 - Uma escola calcula a nota final do aluno efetuando a média
+ * simples entre as notas obtidas em cada bimestre. Você deverá construir um
+ * programa em Java que calcule a média final do aluno. O programa deverá
+ * solicitar o nome do aluno e as quatro notas equivalentes a cada bimestre. A
+ * interação do usuário com o programa deverá ser da seguinte forma:
+ **************************
+ * MÉDIA FINAL
+ **************************
+ * 
+ * Nome do aluno: Pedro Nota do bimestre 1: 8,8 Nota do bimestre 2: 9,5 Nota do
+ * bimestre 3: 7,3 Nota do bimestre 4: 9,2
+ * 
+ * ------------------------------------
+ * Pedro, a sua nota final é 8,7
+ * ------------------------------------
+ * 
+ * ORIENTAÇÕES:
+ * 
+ * 1) Nome do projeto: media_final
+ * 
+ * 2) Enviar o projeto "zipado" (compactado) para celso@celso.dev.br
+ * 
+ *************************************************************************************
+ * 
+ * Combustível gasto (ATIVIDADE 04)
+ * 
+ * A empresa Chega Rápido Transportes é uma empresa do ramo de transportes para
+ * executivos. A Chega Rápido atende clientes dos mais diversos níveis com uma
+ * variada frota de carros.
+ * 
+ * Atualmente a empresa tem enfrentado problemas no cálculo dos valores gastos
+ * com combustível e o(a) contratou para desenvolver uma solução que permita
+ * prever o valor aproximado em Reais gasto em cada viagem.
+ * 
+ * Após avaliar as necessidades da solução você chegou à seguinte conclusão:
+ * 
+ * Ao iniciar o programa, deverá ser fornecido o modelo do carro, a autonomia, a
+ * distância da viagem e o valor do combustível.
+ * 
+ * O sistema deverá apresentar a seguinte interface para o usuário:
+ * 
+ * ----------------------------------------- 
+ * CONSUMO DE COMBUSTÍVEL
+ * ----------------------------------------- 
+ * Modelo do carro? Monza 
+ * Autonomia do carro? 12 
+ * Distância da viagem? 350 
+ * Preço do combustível? 5,49
+ * ----------------------------------------- 
+ * R E S U L T A D O
+ * ----------------------------------------- 
+ * Modelo do veículo: <modelo>
+ * Autonomia do veículo: <autonomia>
+ *  Km/l Distância percorrida: <distancia> Km
+ * Valor do combustível: R$ <valor>
+ * ----------------------------------------- 
+ * Quantidade de combustível utilizado: <quantidade> l Total gasto com a viagem: R$ <total>
+ * -----------------------------------------
+ * 
+ * Onde, <modelo> é o modelo do carro fornecido, <autonomia> é a autonomia do
+ * veículo por km, <distancia> representa a distância da viagem, <quantidade> é
+ * a quantidade de combustível gasto na viagem, <valor> é o preço do combustível
+ * informado e <total> é o valor gasto em reais.
+ * 
+ * Orientações:
+ * 
+ * Autonomia refere-se à distância que um veículo consegue percorrer com 1 litro
+ * de combustível. Por exemplo, se dissermos que um carro tem autonomia de 17
+ * quilômetros por litro, estamos dizendo que com 1 litro de combustível o
+ * veículo irá percorrer 17 quilômetros.
+ * 
+ * 1) Nome do projeto: gasto_combustivel
+ * 
+ * 2) Enviar o projeto "zipado" (compactado) para celso@celso.dev.br
+ * 
+ *****************************************************************************************
+ * 
+ * Qual a média final do aluno (PARTE 2)? (ATIVIDADE 05)
+ * 
+ * ATIVIDADE 05 - Uma escola calcula a nota final do aluno efetuando a média
+ * simples entre as notas obtidas em cada bimestre. Você deverá construir um
+ * programa em Java que calcule a média final do aluno.
+ * 
+ * O aluno é considerado APROVADO caso a média final seja maior ou igual a 6,
+ * caso contrário o aluno é considerado REPROVADO.
+ * 
+ * O programa deverá solicitar o nome do aluno e as quatro notas equivalentes a
+ * cada bimestre. A interação do usuário com o programa deverá ser da seguinte
+ * forma:
+ *************************************
+ * MÉDIA FINAL
+ *************************************
+ * Nome do aluno: Pedro Nota do bimestre 1: 8,8 Nota do bimestre 2: 9,5 Nota do
+ * bimestre 3: 7,3 Nota do bimestre 4: 9,2
+ * ------------------------------------
+ * Pedro, a sua nota final é 5,7 QUE PENA!! VOCÊ FOI REPROVADO!!
+ * ------------------------------------
+ * OU
+ * ------------------------------------
+ * Pedro, a sua nota final é 8,7 PARABÉNS!! VOCÊ FOI APROVADO!!
+ * ------------------------------------
+ * 
+ * ORIENTAÇÕES:
+ * 
+ * 1) Nome do projeto: media_final
+ * 
+ * 2) Enviar o projeto "zipado" (compactado) para celso@celso.dev.br
+ * 
+ ********************************************************************************************
+ * 
+ * Gasolina ou álcool? Atividade 06
+ * 
+ * No Brasil, utiliza-se gasolina ou etanol nos veículos de passeio. Dependendo
+ * do valor destes combustíveis, pode ser mais vantajoso encher o tanque com um
+ * ou com outro.
+ * 
+ * Segundo um padrão estabelecido já há alguns anos, o litro do etanol rende, em
+ * média, 70% da mesma quantidade de gasolina. Sendo assim, você deve
+ * multiplicar o preço do litro da gasolina por 0,7. Se o resultado for inferior
+ * ao preço do litro do álcool, valeria a pena abastecer com gasolina.
+ * 
+ * Faça um programa que indique ao motorista se é mais vantajoso encher o tanque
+ * com álcool ou gasolina.
+ * 
+ * Sugestão de interface:
+ *****************************
+ * GASOLINA OU ÁLCOOL?
+ *****************************
+ * Preço da gasolina: xxx Preço do álcool: xxx
+ *****************************
+ * No momento é mais vantajoso abastecer com GASOLINA!
+ * 
+ **********************************************************************************************************
+ * 
+ * Atividade 07
+ * 
+ * Subtração de dois números
+ * 
+ * Você deve escrever um programa em Java, que receba dois valores numéricos
+ * inteiros e apresente a diferença do maior valor pelo menor valor.
+ * 
+ ***********************************************************************************************************
+ * 
+ * ATIVIDADE 08
+ * 
+ * Reajuste de salário
+ * 
+ * A empresa Acme Ltda. vai proporcionar um aumento de salário para os seus
+ * funcionários, mas este aumento deverá seguir algumas regras, são elas:
+ * 
+ * 1 - O funcionário receberá um reajuste de 15% caso o seu salário atual seja
+ * menor do que 1500;
+ * 
+ * 2 - Se o salário for maior ou igual a 1500, mas menor ou igual a 3000, seu
+ * reajuste será de 10%;
+ * 
+ * 3 - Caso o salário seja maior que 3000, o reajuste deverá ser de 5%.
+ * 
+ * Para facilitar o trabalho do RH em determinar o novo salário dos funcionários
+ * você deve desenvolver um programa, em Java, que efetue os cálculos. O
+ * programa deverá solicitar o nome do funcionário e o seu salário atual.
+ * 
+ * Ao concluir a entrada de dados o sistema deverá exibir o nome do funcionário,
+ * o percentual de reajuste, e o salário novo com reajuste.
+ * 
+ * Use a sua criatividade pra implementar a interação com o usuário ;)
+ * 
+ * Enviar o projeto para celso@celso.dev.br, com o assunto Atividade 08.
+ *
+ * B O M   T R A B A L H O 
+ * 
+ ********************************************************************************************************
+ * 
+ * TIPOS DE TRIÂNGULOS(ATIVIDADE 09)
+ * 
+ * O seu professor de geometria pediu a sua ajuda para desenvolver um programa,
+ * em Java, que determine se uma forma geométrica de 3 lados é um triângulo.
+ * Caso a forma geométrica seja um triângulo também deverá ser determinado se o
+ * triângulo é isósceles, escaleno ou equilátero.
+ *
+ * O que é um triângulo?
+ * 
+ * Um triângulo é uma forma geométrica composta por três lados, e o valor de
+ * cada lado deve ser menor que a soma dos valores dos outros dois lados.
+ * Perceba que é uma regra (uma condição) e deve ser plenamente considerada.
+ * Assim sendo, é um triângulo quando A < B+C, quando B < A+C e quando C < A+B,
+ * considerando como lados as variáveis a, b e c.
+ * 
+ * Tipos de triângulo
+ * 
+ * Tendo certeza de que os três valores informados para os três lados formam um
+ * triângulo, determine se o triângulo é isósceles, escaleno ou equilátero,
+ * sendo:
+ * 
+ * >>ISÓSCELES Quando possui dois lados iguais e um diferente, sendo A=B ou A=C
+ * ou B=C.
+ * 
+ * >>ESCALENO Quando possui todos os lados diferentes, sendo A diferente de B e
+ * B diferente de C.
+ * 
+ * >>EQUILÁTERO Quando todos os lados são iguais, sendo A=B e B=C.
+ * 
+ * Fique à vontade para decidir como será a interação do usuário com o seu
+ * aplicativo.
+ * 
+ * Enviar o projeto para celso@celso.dev.br, com o assunto Atividade 09.
+ * 
+ * B O M   T R A B A L H O ! ! !
+ * 
+ *********************************************************************************************************
+ * 
+ * Qual é o meu IMC, PARTE 2? (ATIVIDADE 10)
+ * 
+ * O índice de massa corporal (IMC) é uma medida internacional usada para
+ * calcular se uma pessoa está no peso ideal. O valor do IMC é o resultado da
+ * divisão do peso pela altura ao quadrado.
+ * 
+ * Escreva um programa de computador, utilizando a linguagem Java, que calcule o
+ * IMC de um indivíduo qualquer. O programa deverá solicitar o nome do usuário,
+ * o peso em Kg e a altura em metros.
+ * 
+ * Esse sistema também deverá apresentar a situação atual do indivíduo, por
+ * exemplo, se está abaixo do peso, acima do peso, peso ideal, etc. Para isso
+ * use como referência a seguinte tabela:
+ * 
+ * +----------------------------------------------------------------------------
+ * --------+ | VALOR IMC | SITUAÇÃO DO INDIVÍDUO |
+ * +-----------------------------------------+----------------------------------
+ * --------+ |Menor que 18,5 |Abaixo do peso normal |
+ * +-----------------------------------------+----------------------------------
+ * --------+ |Maior ou igual a 18,5 e menor que 25,0 |Peso normal |
+ * +-----------------------------------------+----------------------------------
+ * --------+ |Maior ou igual a 25,0 e menor que 30,0 |Sobrepeso |
+ * +-----------------------------------------+----------------------------------
+ * --------+ |Maior ou igual a 30,0 e menor que 35,0 |Obesidade nível I |
+ * +-----------------------------------------+----------------------------------
+ * --------+ |Maior ou igual a 35,0 e menor que 40,0 |Obesidade nível II |
+ * +-----------------------------------------+----------------------------------
+ * --------+ |Maior ou igual a 40,0 |Obesidade nível III |
+ * +----------------------------------------------------------------------------
+ * --------+
+ * 
+ * Utilize o JOptionPane (message ou input dialog) para solicitar e exibir as
+ * mensagens para os usuários.
+ * 
+ * Orientações:
+ * 
+ * 1) Nome do projeto: calculadora_imc
+ * 
+ * 2) Enviar o projeto "zipado" (compactado) para celso@celso.dev.br
+ * 
+ *******************************************************************************************************************
+ * 
+ * ATIVIDADE 11
+ * 
+ * Desafio Jokenpô
+ * 
+ * Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de
+ * jokenpô, é um jogo de mãos recreativo e simples para duas ou mais pessoas,
+ * que não requer equipamentos nem habilidade. O jogo é frequentemente empregado
+ * como método de seleção, assim como lançar moedas, jogar dados, entre outros.
+ * 
+ * Você deverá escrever um programa em Java que permita que o usuário jogue
+ * Jokenpô com o computador.
+ * 
+ * As regras são as seguintes:
+ * 
+ * Ao iniciar o programa, um menu deve ser apresentado ao usuário, por exemplo:
+ *************************************
+ * J O K E N P Ô
+ *************************************
+ * 1 - Pedra 2 - Papel 3 - Tesoura
+ * -------------------------------------- Faça a sua escolha (1 à 3)? 2
+ * Você escolheu ----> PAPEL! O PC escolheu ----> TESOURA!
+ *************************************
+ * QUE PENA!! ****** O PC VENCEU!!! 
+ *************************************
+ * No caso do usuário vencer a mensagem final deverá ser:
+ *********************************** 
+ * PARABÉNS!! ****** VOCÊ VENCEU!!! 
+ ************************************
+ * OBSERVAÇÃO: Se o jogador escolher um valor inválido, o jogo deverá ser
+ * finalizado e o usuário deve ser avisado.
+ * 
+ **********************************************************************************************************************
+ * 
+ * Atividade 12
+ * 
+ * Escreva um programa, em Java, que solicite o nome do usuário e quantas vezes
+ * ele deseja ver o nome repetido na tela. utilize o Scanner para essa tarefa.
+ * 
+ * Envie o projeto para celso@celso.dev.br
+ * 
+ ************************************************************************************************************************
+ * 
+ * Atividade 13
+ * 
+ * Escreva um programa, em Java, que solicite ao usuário dois valores. O
+ * programa deverá exibir todos os valores múltiplos de 6 entre o menor e o
+ * maior valor fornecidos. Utilize o Scanner para executar esta tarefa.
+ * 
+ * Envie o projeto para celso@celso.dev.br
+ * 
+ *************************************************************************************************************
+ * 
+ * Atividade 14
+ * 
+ * Você deve escrever um programa que permita ao usuário obter a tabuada de
+ * qualquer número selecionado por ele. Por exemplo, deve ser possível obtermos
+ * a tabuada do 97 começando no 74 até o 128.
+ * 
+ * O sistema deverá solicitar ao usuário o multiplicando, o mínimo e o máximo
+ * multiplicador, e a partir daí gerar a tabuada que deverá ser apresentada ao
+ * usuário.
+ * 
+ * Exemplo:
+ * 
+ * Se o usuário escolher o multiplicando 7, o mínimo multiplicador 3 e o máximo
+ * multiplicador 8, deverá ser apresentada a seguinte saída ao usuário:
+ * 
+ * Tabuada do 7 ------------------------- 7 X 3 = 21 7 X 4 = 28 7 X 5 = 35 7 X 6
+ * = 42 7 X 7 = 49 7 X 8 = 56 F I M -------------------------
+ * 
+ * Utilize o Scanner para executar a tarefa.
+ * 
+ * Envie o projeto para celso@celso.dev.br
+ * 
+ *******************************************************************************************************************************
+ * 
+ * Atividade 15
+ * 
+ * Elaborar um programa que apresente a somatória dos números pares de 1 até 50.
+ * Utilize o laço FOR para executar essa tarefa. Apresente o resultado no
+ * console.
+ * 
+ * Enviar o projeto para celso@celso.dev.br
+ * 
+ ********************************************************************************************************************************************
+ * 
+ * Atividade 16
+ * 
+ * Elabore um programa que possibilite calcular a área total de uma residência
+ * (sala, cozinha, banheiro, quartos, área de serviço, etc.). O programa deve
+ * solicitar a entrada do nome, a largura e o comprimento de um determinado
+ * cômodo. Em seguida deve apresentar a área do cômodo lido e também uma
+ * mensagem solicitando ao usuário a confirmação de continuar calculando novos
+ * cômodos. Caso o usuário responda "N", o programa deve apresentar o valor
+ * total acumulado da área da residência.
+ * 
+ * Para concluir esta tarefa você deverá, obrigatoriamente, utilizar a instrução
+ * For.
+ * 
+ * =======================================================================
+ * OBSERVAÇÃO
+ * ======================================================================= Para
+ * efetuar uma comparação de igualdade entre strings, não utilizamos o sinal de
+ * igualdade (==). Para isso devemos utilizar o método "equals" das strings.
+ * Suponhamos que você tenha duas variáveis, pet1 e pet2 e você deseja saber se
+ * ambas as variáveis possuem o mesmo valor, você deverá utilizar o seguinte
+ * comando:
+ * 
+ * pet1.equals(pet2)
+ * 
+ * A expressão acima resultará em "true" caso as variáveis possuam o mesmo
+ * valor, caso contrário a expressão resultará em "false".
+ * ========================================================================
+ * 
+ * Envie o projeto para celso@celso.dev.br
+ * 
+ *******************************************************************************************************************************************
+ * 
+ * Atividade 17
+ * 
+ * Desenvolver um programa que solicite ao usuário seis números inteiros. Os
+ * números fornecidos pelo usuário devem ser armazenados em uma matriz A do tipo
+ * vetor. No final, apresente o total da soma de todos os elementos que sejam
+ * ímpares.
+ * 
+ * Observação: - Utilize o Scanner para solicitar a entrada dos dados; - Utilize
+ * o laço for para executar esta atividade.
+ * 
+ * Enviar o projeto para celso@celso.dev.br
+ * 
+ ***************************************************************************************************************************************
+ * 
+ * Atividade 18
+ * 
+ * Desenvolver um programa que leia dez elementos de uma matriz A do tipo vetor.
+ * Construir uma matriz B de mesmo tipo, observando a seguinte lei de formação:
+ * se o valor do índice for par, o valor deve ser multiplicado por 5, sendo
+ * ímpar, deve ser somado com 5. Ao final mostrar o conteúdo da matriz B.
+ * 
+ * Atenção, utilizar laço For para execução deste projeto.
+ * 
+ * Enviar o projeto para celso@celso.dev.br
+ * 
+ *********************************************************************************************************************************************
+ * 
+ * Atividade 19
+ * 
+ * Desenvolver um programa que solicite ao usuário o preenchimento de duas
+ * matrizes do tipo vetor, A e B. Cada matriz deve ter o tamanho 6. Ao finalizar
+ * a entrada de dados, o sistema deverá criar uma terceira matriz C, do tipo
+ * vetor, onde cada índice armazenará o valor da subtração do mesmo índice nas
+ * matrizes A e B. Por exemplo, em C[0] deverá ser armazenado o valor de A[0] -
+ * B[0], em C[1] deverá ser armazenado o valor de A[1] - B[1] e assim
+ * sucessivamente até completar a matriz C.
+ * 
+ * Atenção, utilize laço while para executar essa atividade.
+ * 
+ * Enviar o projeto para celso@celso.dev.br
+ * 
+ *********************************************************************************************************************************************
+ * 
+ * Atividade 20
+ * 
+ * Desenvolver um programa que que construa uma matriz A do tipo vetor com 20
+ * elementos. Construir uma matriz B do tipo vetor que armazene os valores da
+ * matriz A invertidos. Por exemplo, o valor armazenado no primeiro índice de A
+ * deverá ser armazenado no último índice de B, o valor armazenado no segundo
+ * índice de A deverá ser armazenado no penúltimo índice de B.
+ * 
+ * Observação, utilize o while para executar essa tarefa.
+ * 
+ * Enviar o projeto para celso@celso.dev.br
+ * 
+ *************************************************************************************************************************************
+ * 
+ * Atividade 21
+ * 
+ * Criar um sistema que permita o cadastro dos alunos de uma turma. O cadastro
+ * deverá permitir o cadastro do nome, e das 4 notas bimestrais. Ao final do
+ * cadastro, deverá ser exibida uma tabela com os nomes, notas bimestrais, média
+ * final e situação do aluno (Aprovado ou Reprovado). Antes de começar, o
+ * sistema deverá solicitar o número de alunos que serão cadastrados.
+ * 
+ * Observações: Para o aluno ser considerado aprovado ele deverá obter nota
+ * maior ou igual a 5. Uma turma pode ter até 35 alunos.
+ * 
+ * Dica de interface:
+ * 
+ * ------------------------------------------- 
+ * NOTAS FINAIS
+ * -------------------------------------------
+ * 
+ * Quantos alunos na turma?
+ * 
+ * Nome do aluno: Nota do 1º bimestre: Nota do 2º bimestre: Nota do 3º bimestre:
+ * Nota do 4º bimestre:
+ * 
+ * Cadastrar outro aluno (S/N)?
+ * 
+ * ------------------------------------------------------------ 
+ * LISTA GERAL DA TURMA 
+ * ------------------------------------------------------------ 
+ * Nome Nota1
+ * Nota2 Nota3 Nota4 Média Situação
+ * ------------------------------------------------------------ 
+ *  Ana Maria 5.0 8.0 9.0 5.0 6.5 APROVADO 
+ *  Ana Maria 5.0 8.0 9.0 5.0 6.5 APROVADO 
+ *  Ana Maria 5.0 8.0 9.0 5.0 6.5 APROVADO 
+ *  Ana Maria 5.0 8.0 9.0 5.0 6.5 APROVADO
+ * ------------------------------------------------------------
+ * 
+ ******************************************************************************************************************************************************
+ */
